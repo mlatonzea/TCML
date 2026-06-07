@@ -6,7 +6,7 @@ import { defineConfig, fontProviders } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://mlatonzea.github.io/TCML',
+	site: 'https://mlatonzea.github.io',
 	base: '/TCML/',
 	integrations: [mdx(), sitemap()],
 	fonts: [
