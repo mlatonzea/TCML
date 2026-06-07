@@ -1,0 +1,33 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1> THE HALL OF FAME</h1>
+			<p>
+				The Terrence Clarke Memorial League is a 6 man dynasty league that has been running since 2020.
+				It's a standard dynasty league with one major twist.
+			</p>
+			<ul>
+				<li>It is a traditional 9-cat format</li>
+				<li>You can only make additions during the Summer or Winter expansion drafts</li>
+				<li>Two additional teams exist: one made of cut players and one made of eligible but never drafted players.</li>
+				<li>You can ONLY pick players who have not lost their rookie status</code></li>
+			</ul>
+			<p>
+				Essentially, no players before Anthony Edwards can be selected in our league.
+			</p>
+		</main>
+		<Footer />
+	</body>
+</html>
