@@ -1,16 +1,127 @@
 ---
 title: '2024 Summer Draft'
-description: 'Lorem ipsum dolor sit amet'
+description: 'Summer draft description'
 pubDate: 'Jul 22 2024'
 heroImage: '../../assets/yearPics/Summer-2024.jpg'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
+## Draft selections
 
-Morbi tristique senectus et netus. Id semper risus in hendrerit gravida rutrum quisque non tellus. Habitasse platea dictumst quisque sagittis purus sit amet. Tellus molestie nunc non blandit massa. Cursus vitae congue mauris rhoncus. Accumsan tortor posuere ac ut. Fringilla urna porttitor rhoncus dolor. Elit ullamcorper dignissim cras tincidunt lobortis. In cursus turpis massa tincidunt dui ut ornare lectus. Integer feugiat scelerisque varius morbi enim nunc. Bibendum neque egestas congue quisque egestas diam. Cras ornare arcu dui vivamus arcu felis bibendum. Dignissim suspendisse in est ante in nibh mauris. Sed tempus urna et pharetra pharetra massa massa ultricies mi.
-
-Mollis nunc sed id semper risus in. Convallis a cras semper auctor neque. Diam sit amet nisl suscipit. Lacus viverra vitae congue eu consequat ac felis donec. Egestas integer eget aliquet nibh praesent tristique magna sit amet. Eget magna fermentum iaculis eu non diam. In vitae turpis massa sed elementum. Tristique et egestas quis ipsum suspendisse ultrices. Eget lorem dolor sed viverra ipsum. Vel turpis nunc eget lorem dolor sed viverra. Posuere ac ut consequat semper viverra nam. Laoreet suspendisse interdum consectetur libero id faucibus. Diam phasellus vestibulum lorem sed risus ultricies tristique. Rhoncus dolor purus non enim praesent elementum facilisis. Ultrices tincidunt arcu non sodales neque. Tempus egestas sed sed risus pretium quam vulputate. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Fringilla urna porttitor rhoncus dolor purus non. Amet dictum sit amet justo donec enim.
-
-Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Tortor posuere ac ut consequat semper viverra. Tellus mauris a diam maecenas sed enim ut sem viverra. Venenatis urna cursus eget nunc scelerisque viverra mauris in. Arcu ac tortor dignissim convallis aenean et tortor at. Curabitur gravida arcu ac tortor dignissim convallis aenean et tortor. Egestas tellus rutrum tellus pellentesque eu. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Id donec ultrices tincidunt arcu. Id cursus metus aliquam eleifend mi.
-
-Tempus quam pellentesque nec nam aliquam sem. Risus at ultrices mi tempus imperdiet. Id porta nibh venenatis cras sed felis eget velit. Ipsum a arcu cursus vitae. Facilisis magna etiam tempor orci eu lobortis elementum. Tincidunt dui ut ornare lectus sit. Quisque non tellus orci ac. Blandit libero volutpat sed cras. Nec tincidunt praesent semper feugiat nibh sed pulvinar proin gravida. Egestas integer eget aliquet nibh praesent tristique magna.
+<html>
+<br>
+<table class="draft-table">
+  <thead>
+    <tr>
+      <th>Pick</th>
+      <th>Team</th>
+      <th>Player</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="draft-row">
+      <td colspan="3">Round 1</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Anthony</td>
+      <td>VJ Edgecombe</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Mitchell</td>
+      <td>Stephon Castle</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Sam</td>
+      <td>Devin Carter</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Michael</td>
+      <td>Tidjuane Salaun</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Matt</td>
+      <td>Dalton Knect</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Mr. L</td>
+      <td>AJ Dybantsa</td>
+    </tr>
+    <tr class="draft-row">
+      <td colspan="3">Round 2</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Anthony</td>
+      <td>Koa Pete</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Mr. L</td>
+      <td>Nolan Traore</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Sam</td>
+      <td>Tre Johnson</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Michael</td>
+      <td>Hugo Gonzalez</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>Matt</td>
+      <td>Khaman Maluach</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>Mitchell</td>
+      <td>Rocco Zikarsky</td>
+    </tr>
+    <tr class="draft-row">
+      <td colspan="3">Round 3</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>Anthony</td>
+      <td>Oscar Wembanyama</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>Mitchell</td>
+      <td>Zach Edey</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>Sam</td>
+      <td>Jared McCain</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>Michael</td>
+      <td>Baylor Scheireman</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>Matt</td>
+      <td>Tyler Kolek</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>Mitchell</td>
+      <td>Yves Missi</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>Anthony</td>
+      <td>Jayden Quaintance</td>
+    </tr>
+  </tbody>
+</table>
+</html>

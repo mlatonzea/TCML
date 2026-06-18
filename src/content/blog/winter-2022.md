@@ -1,214 +1,91 @@
 ---
 title: '2022 Winter Draft'
-description: 'Test 1234'
+description: 'Winter draft description'
 pubDate: 'Dec 19 2022'
 heroImage: '../../assets/yearPics/Winter-2022.jpg'
 ---
 
-Garbage that is different is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro.
+Baffling choices. Don't ask me.
 
-## Headings
+## Draft Selections
 
-The following HTML `<h1>`—`<h6>` elements represent six levels of section headings. `<h1>` is the highest section level while `<h6>` is the lowest.
-
-# H1
-
-## H2
-
-### H3
-
-#### H4
-
-##### H5
-
-###### H6
-
-## Paragraph
-
-Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.
-
-Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.
-
-## Images
-
-### Syntax
-
-```markdown
-![Alt text](./full/or/relative/path/of/image)
-```
-
-### Output
-
-![blog placeholder](../../assets/yearPics/Summer-2020.jpg)
-
-## Blockquotes
-
-The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a `footer` or `cite` element, and optionally with in-line changes such as annotations and abbreviations.
-
-### Blockquote without attribution
-
-#### Syntax
-
-```markdown
-> Tiam, ad mint andaepu dandae nostion secatur sequo quae.  
-> **Note** that you can use _Markdown syntax_ within a blockquote.
-```
-
-#### Output
-
-> Tiam, ad mint andaepu dandae nostion secatur sequo quae.  
-> **Note** that you can use _Markdown syntax_ within a blockquote.
-
-### Blockquote with attribution
-
-#### Syntax
-
-```markdown
-> Don't communicate by sharing memory, share memory by communicating.<br>
-> — <cite>Rob Pike[^1]</cite>
-```
-
-#### Output
-
-> Don't communicate by sharing memory, share memory by communicating.<br>
-> — <cite>Rob Pike[^1]</cite>
-
-[^1]: The above quote is excerpted from Rob Pike's [talk](https://www.youtube.com/watch?v=PAAkCSZUG1c) during Gopherfest, November 18, 2015.
-
-## Tables
-
-### Syntax
-
-```markdown
-| Italics   | Bold     | Code   |
-| --------- | -------- | ------ |
-| _italics_ | **bold** | `code` |
-```
-
-### Output
-
-| Italics   | Bold     | Code   |
-| --------- | -------- | ------ |
-| _italics_ | **bold** | `code` |
-
-## Code Blocks
-
-### Syntax
-
-we can use 3 backticks ``` in new line and write snippet and close with 3 backticks on new line and to highlight language specific syntax, write one word of language name after first 3 backticks, for eg. html, javascript, css, markdown, typescript, txt, bash
-
-````markdown
-```html
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Example HTML5 Document</title>
-  </head>
-  <body>
-    <p>Test</p>
-  </body>
+<html>
+  <br>
+  <table class="draft-table">
+    <thead>
+      <tr>
+        <th>Pick</th>
+        <th>Team</th>
+        <th>Player</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="draft-row">
+        <td colspan="3">Round 1</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Anthony</td>
+        <td>Amen Thompson</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Matt</td>
+        <td>Brandon Miller</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Mitchell</td>
+        <td>Andrew Nembhard</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Michael</td>
+        <td>Cam Whitmore</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>Sam</td>
+        <td>Tari Eason</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>Anthony</td>
+        <td>Gus Yaldon</td>
+      </tr>
+      <tr class="draft-row">
+        <td colspan="3">Round 2</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>Mr. L</td>
+        <td>Aaron Bradshaw</td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>Sam</td>
+        <td>Keyonte George</td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td>Mitchell</td>
+        <td>Aday Mara</td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td>Sam</td>
+        <td>Justin Edwards</td>
+      </tr>
+      <tr>
+        <td>11</td>
+        <td>Matt</td>
+        <td>Jarace Walker</td>
+      </tr>
+      <tr>
+        <td>12</td>
+        <td>Anthony</td>
+        <td>??? Missing DATA</td>
+      </tr>
+    </tbody>
+  </table>
 </html>
-```
-````
-
-### Output
-
-```html
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Example HTML5 Document</title>
-  </head>
-  <body>
-    <p>Test</p>
-  </body>
-</html>
-```
-
-## List Types
-
-### Ordered List
-
-#### Syntax
-
-```markdown
-1. First item
-2. Second item
-3. Third item
-```
-
-#### Output
-
-1. First item
-2. Second item
-3. Third item
-
-### Unordered List
-
-#### Syntax
-
-```markdown
-- List item
-- Another item
-- And another item
-```
-
-#### Output
-
-- List item
-- Another item
-- And another item
-
-### Nested list
-
-#### Syntax
-
-```markdown
-- Fruit
-  - Apple
-  - Orange
-  - Banana
-- Dairy
-  - Milk
-  - Cheese
-```
-
-#### Output
-
-- Fruit
-  - Apple
-  - Orange
-  - Banana
-- Dairy
-  - Milk
-  - Cheese
-
-## Other Elements — abbr, sub, sup, kbd, mark
-
-### Syntax
-
-```markdown
-<abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.
-
-H<sub>2</sub>O
-
-X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
-
-Press <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>Delete</kbd> to end the session.
-
-Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.
-```
-
-### Output
-
-<abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.
-
-H<sub>2</sub>O
-
-X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
-
-Press <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>Delete</kbd> to end the session.
-
-Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.

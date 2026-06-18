@@ -139,3 +139,33 @@ hr {
 	/* added line to stop words getting smushed together (as they go onto separate lines and some screen readers do not understand line feeds as a space */
 	white-space: nowrap;
 }
+
+.draft-table {
+    width: 90%;
+    margin: 25px auto;
+    border-collapse: collapse;
+    text-align: center;
+    background: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.draft-table td {
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.draft-row {
+    background: linear-gradient(90deg, #1e3c72, #2a5298);
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.draft-table tr:not(.draft-row):nth-child(even) {
+    background-color: #f7f9fc;
+}
