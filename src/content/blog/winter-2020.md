@@ -1,11 +1,11 @@
 ---
-title: 'First Summer Draft'
-description: 'Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro.'
-pubDate: 'Jun 19 2024'
-heroImage: '../../assets/yearPics/Summer-2020.jpg'
+title: '2020 Winter Draft'
+description: 'Test 1234'
+pubDate: 'Dec 19 2020'
+heroImage: '../../assets/yearPics/Winter-2020.jpg'
 ---
 
-Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro.
+Garbage that is different is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro.
 
 ## Headings
 
