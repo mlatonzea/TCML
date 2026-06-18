@@ -8,6 +8,7 @@ import { defineConfig, fontProviders } from 'astro/config';
 export default defineConfig({
 	site: 'https://mlatonzea.github.io',
 	base: '/TCML/',
+	publicDir: 'public',
 	integrations: [mdx(), sitemap()],
 	fonts: [
 		{

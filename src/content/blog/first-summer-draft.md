@@ -2,7 +2,7 @@
 title: 'First Summer Draft'
 description: 'Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro.'
 pubDate: 'Jun 19 2024'
-heroImage: '../../assets/Summer-2020.jpg'
+heroImage: '../../assets/yearPics/Summer-2020.jpg'
 ---
 
 Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro.
@@ -39,7 +39,7 @@ Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sap
 
 ### Output
 
-![blog placeholder](../../assets/Summer-2020.jpg)
+![blog placeholder](../../assets/yearPics/Summer-2020.jpg)
 
 ## Blockquotes
 
