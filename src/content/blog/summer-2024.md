@@ -5,7 +5,7 @@ pubDate: 'Jul 22 2024'
 heroImage: '../../assets/yearPics/Summer-2024.jpg'
 ---
 
-## Draft selections
+## Draft Selections
 
 <html>
 <br>
@@ -116,6 +116,9 @@ heroImage: '../../assets/yearPics/Summer-2024.jpg'
       <td>18</td>
       <td>Mitchell</td>
       <td>Yves Missi</td>
+    </tr>
+    <tr class="draft-row">
+      <td colspan="3">Round 4</td>
     </tr>
     <tr>
       <td>19</td>

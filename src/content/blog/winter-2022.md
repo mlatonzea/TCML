@@ -50,8 +50,8 @@ Baffling choices. Don't ask me.
       </tr>
       <tr>
         <td>6</td>
-        <td>Anthony</td>
-        <td>Gus Yaldon</td>
+        <td>Mr. L</td>
+        <td>Cason Wallace</td>
       </tr>
       <tr class="draft-row">
         <td colspan="3">Round 2</td>
@@ -68,13 +68,13 @@ Baffling choices. Don't ask me.
       </tr>
       <tr>
         <td>9</td>
-        <td>Mitchell</td>
-        <td>Aday Mara</td>
+        <td>Sam</td>
+        <td>Justin Edwards</td>
       </tr>
       <tr>
         <td>10</td>
-        <td>Sam</td>
-        <td>Justin Edwards</td>
+        <td>Mitchell</td>
+        <td>Aday Mara</td>
       </tr>
       <tr>
         <td>11</td>
@@ -84,7 +84,7 @@ Baffling choices. Don't ask me.
       <tr>
         <td>12</td>
         <td>Anthony</td>
-        <td>??? Missing DATA</td>
+        <td>Gus Yalden</td>
       </tr>
     </tbody>
   </table>
