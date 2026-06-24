@@ -1,0 +1,23 @@
+---
+import Layout from '../layouts/BlogPost.astro';
+const images = Object.values(
+  import.meta.glob('../assets/players/*.{jpg,jpeg,png,webp}', {
+    eager: true,
+    import: 'default',
+  })
+);
+
+const playerImage = images[Math.floor(Math.random() * images.length)];
+---
+
+<Layout
+	title="About The Owners"
+	description="Meet the idiots who run the league"
+	pubDate={new Date('August 08 2021')}
+	heroImage={playerImage}
+>
+
+<h3>Roster page</h3>
+<p>
+    This will show the rosters once they are finalized for the year.
+</p>

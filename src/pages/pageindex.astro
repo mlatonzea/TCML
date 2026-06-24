@@ -1,0 +1,51 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import HeaderLink from '../components/HeaderLink.astro';
+import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>Page index</h1>
+
+            <p>This serves as a catch all to show all of the pages.</p>
+
+            <ul>
+                <li><HeaderLink href="/TCML/">Home</HeaderLink></li>
+                <li><HeaderLink href="/TCML/drafts">Drafts</HeaderLink></li>
+                <li><HeaderLink href="/TCML/rosters">Rosters</HeaderLink></li>
+                <li><HeaderLink href="/TCML/owners">About the Owners</HeaderLink></li>
+                <li><HeaderLink href="/TCML/hall-of-fame">Hall of Fame</HeaderLink></li>
+                <li><HeaderLink href="/TCML/history">League History</HeaderLink></li>
+                <li><HeaderLink href="/TCML/rules">Rules</HeaderLink></li>
+                <li><HeaderLink href="/TCML/community">Community and More</HeaderLink></li>
+            </ul>
+
+            <p>All drafts in reverse chronological order</p>
+            <ul>
+                <li><HeaderLink href="/TCML/drafts/summer-2020">2020 Summer Draft</HeaderLink></li>
+                <li><HeaderLink href="/TCML/drafts/winter-2020">2020 Winter Draft</HeaderLink></li>
+                <li><HeaderLink href="/TCML/drafts/summer-2021">2021 Summer Draft</HeaderLink></li>
+                <li><HeaderLink href="/TCML/drafts/winter-2021">2021 Winter Draft</HeaderLink></li>
+                <li><HeaderLink href="/TCML/drafts/summer-2022">2022 Summer Draft</HeaderLink></li>
+                <li><HeaderLink href="/TCML/drafts/winter-2022">2022 Winter Draft</HeaderLink></li>
+                <li><HeaderLink href="/TCML/drafts/summer-2023">2023 Summer Draft</HeaderLink></li>
+                <li><HeaderLink href="/TCML/drafts/winter-2023">2023 Winter Draft</HeaderLink></li>
+                <li><HeaderLink href="/TCML/drafts/summer-2024">2024 Summer Draft</HeaderLink></li>
+                <li><HeaderLink href="/TCML/drafts/winter-2024">2024 Winter Draft</HeaderLink></li>
+                <li><HeaderLink href="/TCML/drafts/summer-2025">2025 Summer Draft</HeaderLink></li>
+                <li><HeaderLink href="/TCML/drafts/winter-2025">2025 Winter Draft</HeaderLink></li>
+                <li><HeaderLink href="/TCML/drafts/summer-2026">2026 Summer Draft</HeaderLink></li>
+            </ul>
+		</main>
+		<Footer />
+	</body>
+</html>

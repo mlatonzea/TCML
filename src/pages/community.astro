@@ -1,0 +1,24 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>Community Pages</h1>
+            <h3>Mailbag</h3>
+            <p>Want to contact us? Have questions or simply want to call an owner stupid? Email mlatonzea@gmail.com and get your comments posted here!</p>
+			<h3>Polls</h3>
+            <iframe width="620" height="512" src="https://docs.google.com/forms/d/e/1FAIpQLScFm_0v8EGPiFVJdIU5Yp4-gAdL9dfkqP1YX1IXLBuIVYoMag/viewform?usp=publish-editor" style="width: 100%; height:512px;" frameborder="0" allowfullscreen></iframe>
+		</main>
+		<Footer />
+	</body>
+</html>

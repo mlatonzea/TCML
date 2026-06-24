@@ -1,7 +1,13 @@
 ---
-import ownerImage from '../assets/owners-1.png';
-import ownerImage2 from '../assets/owners-2.png';
 import Layout from '../layouts/BlogPost.astro';
+const images = Object.values(
+  import.meta.glob('../assets/owners/*.{jpg,jpeg,png,webp}', {
+    eager: true,
+    import: 'default',
+  })
+);
+
+const ownerImage = images[Math.floor(Math.random() * images.length)];
 ---
 
 <Layout
