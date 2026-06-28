@@ -169,3 +169,51 @@ hr {
 .draft-table tr:not(.draft-row):nth-child(even) {
     background-color: #f7f9fc;
 }
+
+.table-wrapper {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    position: relative;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+}
+
+.history-table {
+    width: max-content;
+    min-width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant-numeric: tabular-nums;
+}
+
+.history-table th,
+.history-table td {
+    padding: 0.65rem 0.9rem;
+    border-bottom: 1px solid #ddd;
+    white-space: nowrap;
+}
+
+.history-header-row{
+	background: #1e3c72;
+    color: white;
+}
+
+.history-table th:first-child,
+.history-table td:first-child {
+    position: sticky;
+    left: 0;
+    background: #1e3c72;
+    color: white;
+    z-index: 2;
+}
+
+.history-table td:not(:first-child), td:not(:first-child){
+	min-width: 110px;
+}
+
+.best-record {
+	background: lightgreen;
+}

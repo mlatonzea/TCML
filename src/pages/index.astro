@@ -2,6 +2,7 @@
 import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
+import HeaderLink from '../components/HeaderLink.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 ---
 
@@ -15,18 +16,14 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 		<main>
 			<h1> THE TERRENCE CLARKE MEMORIAL LEAGUE</h1>
 			<p>
-				The Terrence Clarke Memorial League is a 6 man dynasty league that has been running since 2020.
-				It's a standard dynasty league with one major twist.
+				Welcome to the Terrence Clarke Memorial League!
 			</p>
 			<ul>
-				<li>It is a traditional 9-cat format</li>
-				<li>You can only make additions during the Summer or Winter expansion drafts</li>
-				<li>Two additional teams exist: one made of cut players and one made of eligible but never drafted players.</li>
-				<li>You can ONLY pick players who have not lost their rookie status</code></li>
+				<li>Do you have no idea what this league is? Read the <HeaderLink href="/TCML/rules">rules!</HeaderLink></li>
+				<li>Want to see the rosters? Check them <HeaderLink href="/TCML/rules">here!</HeaderLink></li>
+				<li>Want to write in or predict this season's champ? Go to our <HeaderLink href="/TCML/community">community tab!</HeaderLink></li>
+				<li>Want to just see all our pages? The full page index is <HeaderLink href="/TCML/pageindex">here!</HeaderLink></code></li>
 			</ul>
-			<p>
-				Essentially, no players before Anthony Edwards can be selected in our league.
-			</p>
 		</main>
 		<Footer />
 	</body>
