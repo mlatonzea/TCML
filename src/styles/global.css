@@ -166,8 +166,12 @@ hr {
     letter-spacing: 1px;
 }
 
-.draft-table tr:not(.draft-row):nth-child(even) {
+.draft-table tr:not(.draft-row):not(.future):nth-child(even) {
     background-color: #f7f9fc;
+}
+
+.draft-table tr.future {
+	background: lightgreen;
 }
 
 .table-wrapper {

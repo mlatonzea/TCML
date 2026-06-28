@@ -1,7 +1,7 @@
 ---
 import Layout from '../layouts/BlogPost.astro';
 const images = Object.values(
-  import.meta.glob('../assets/players/*.{jpg,jpeg,png,webp}', {
+  import.meta.glob('../assets/players/*.{jpg, jpeg, png, webp}', {
     eager: true,
     import: 'default',
   })
@@ -11,13 +11,252 @@ const playerImage = images[Math.floor(Math.random() * images.length)];
 ---
 
 <Layout
-	title="About The Owners"
-	description="Meet the idiots who run the league"
-	pubDate={new Date('August 08 2021')}
+	title="Rosters"
+	description="Check the current rosters"
+	pubDate={new Date('June 27 2026')}
 	heroImage={playerImage}
 >
 
-<h3>Roster page</h3>
-<p>
-    This will show the rosters once they are finalized for the year.
-</p>
+<h3>Current Rosters</h3>
+<table class="draft-table">
+  <thead>
+    <tr>
+      <th>Player</th>
+      <th>Current Team</th>
+      <th>Position</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="draft-row">
+      <td colspan="3">Big Boys Don't Kawhi</td>
+    </tr>
+      <tr><td>LaMelo Ball</td><td>Charlotte</td><td>PG/SG</td></tr>
+      <tr><td>Cole Anthony</td><td>Orlando</td><td>PG</td></tr>
+      <tr><td>Saddiq Bey</td><td>New Orleans</td><td>SF/PF</td></tr>
+      <tr><td>Brandon Boston</td><td>New Orleans</td><td>SG/SF</td></tr>
+      <tr><td>Victor Wembanyama</td><td>San Antonio</td><td>PF/C</td></tr>
+      <tr><td>Walker Kessler</td><td>Utah</td><td>C</td></tr>
+      <tr><td>Amen Thompson</td><td>Houston</td><td>SF</td></tr>
+      <tr><td>Gradey Dick</td><td>Toronto</td><td>SG</td></tr>
+      <tr><td>Anthony Black</td><td>Orlando</td><td>PG/SG</td></tr>
+      <tr><td>Taylor Hendricks</td><td>Utah</td><td>PF</td></tr>
+      <tr><td>Ron Holland</td><td>Detroit</td><td>F</td></tr>
+      <tr><td>Nikola Topic</td><td>Oklahoma City</td><td>PG</td></tr>
+      <tr><td>Dylan Harper</td><td>San Antonio</td><td>SG</td></tr>
+      <tr><td>Donovan Clingan</td><td>Portland</td><td>C</td></tr>
+      <tr><td>VJ Edgecombe</td><td>Philadelphia</td><td>SF</td></tr>
+      <tr><td>Koa Peat</td><td>Dallas</td><td>SF</td></tr>
+      <tr><td>Jayden Quaintance</td><td>San Antonio</td><td>SF</td></tr>
+      <tr class="future"><td>Alijah Arenas</td><td>USC</td><td>SG</td></tr>
+      <tr><td>Kon Knueppel</td><td>Charlotte</td><td>SF</td></tr>
+      <tr><td>Danny Wolf</td><td>Brooklyn</td><td>C</td></tr>
+      <tr><td>Joshua Jefferson</td><td>Minnesota</td><td>SF/PF</td></tr>
+      <tr class="future"><td>Kager Knueppel</td><td>High School</td><td>PF</td></tr>
+      <tr><td>Yaxel Lendeborg</td><td>Golden State</td><td>PF</td></tr>
+      <tr><td>Brayden Burries</td><td>Milwaukee</td><td>PG</td></tr>
+      <tr><td>Morez Johnson Jr.</td><td>Dallas</td><td>PF/C</td></tr>
+    <tr class="draft-row">
+      <td colspan="3">Pokemon Max</td>
+    </tr>
+      <tr><td>Anthony Edwards</td><td>Minnesota</td><td>SG/SF</td></tr>
+      <tr><td>Tyrese Maxey</td><td>Philadelphia</td><td>PG/SG</td></tr>
+      <tr><td>Deni Avdija</td><td>Portland</td><td>SF/PF</td></tr>
+      <tr><td>Devin Vassell</td><td>San Antonio</td><td>SG/SF</td></tr>
+      <tr><td>Evan Mobley</td><td>Cleveland</td><td>PF/C</td></tr>
+      <tr><td>Immanuel Quickley</td><td>Toronto</td><td>PG/SG</td></tr>
+      <tr><td>Nick Richards</td><td>Chicago</td><td>C</td></tr>
+      <tr><td>Paolo Banchero</td><td>Orlando</td><td>SF/PF</td></tr>
+      <tr><td>Day'Ron Sharpe</td><td>Brooklyn</td><td>C</td></tr>
+      <tr><td>Trey Murphy III</td><td>New Orleans</td><td>SF/PF</td></tr>
+      <tr><td>Shaedon Sharpe</td><td>Portland</td><td>SG/SF</td></tr>
+      <tr><td>Dereck Lively II</td><td>Dallas</td><td>C</td></tr>
+      <tr><td>Cason Wallace</td><td>Oklahoma City</td><td>SG</td></tr>
+      <tr><td>Alexandre Sarr</td><td>Washington</td><td>C</td></tr>
+      <tr><td>Reed Sheppard</td><td>Houston</td><td>SG</td></tr>
+      <tr><td>Rob Dillingham</td><td>Chicago</td><td>PG</td></tr>
+      <tr><td>AJ Dybantsa</td><td>Washington</td><td>SF</td></tr>
+      <tr><td>Nolan Traore</td><td>Brooklyn</td><td>PG</td></tr>
+      <tr><td>Egor Demin</td><td>Brooklyn</td><td>PF</td></tr>
+      <tr class="future"><td>Tyran Stokes</td><td>Kansas</td><td>SF</td></tr>
+      <tr class="future"><td>Brandon McCoy</td><td>Michigan</td><td>PG</td></tr>
+      <tr class="future"><td>Cam Williams</td><td>High School</td><td>PF</td></tr>
+      <tr class="future"><td>Bruce Branch III</td><td>BYU</td><td>SF</td></tr>
+      <tr class="future"><td>Jordan Smith Jr.</td><td>Arkansas</td><td>SG</td></tr>
+      <tr class="future"><td>Luigi Suigo</td><td>Villanova</td><td>C</td></tr>
+    <tr class="draft-row">
+      <td colspan="3">Pritchard Fan Club</td>
+    </tr>
+      <tr><td>Tyrese Haliburton</td><td>Indiana</td><td>PG/SG</td></tr>
+      <tr><td>Aaron Nesmith</td><td>Indiana</td><td>SG/SF</td></tr>
+      <tr><td>Jalen Johnson</td><td>Atlanta</td><td>SF/PF</td></tr>
+      <tr><td>Payton Pritchard</td><td>Boston</td><td>PG/SG</td></tr>
+      <tr><td>Isaiah Jackson</td><td>Indiana</td><td>PF</td></tr>
+      <tr><td>Jaden Ivey</td><td>Chicago</td><td>PG/SG</td></tr>
+      <tr><td>Bennedict Mathurin</td><td>Indiana</td><td>SG/SF</td></tr>
+      <tr><td>Ausar Thompson</td><td>Detroit</td><td>SG/SF</td></tr>
+      <tr><td>Mark Williams</td><td>Charlotte</td><td>C</td></tr>
+      <tr><td>Jalen Williams</td><td>Oklahoma City</td><td>SG/SF</td></tr>
+      <tr><td>Brandon Miller</td><td>Charlotte</td><td>SF</td></tr>
+      <tr><td>Andrew Nembhard</td><td>Indiana</td><td>PG/SG</td></tr>
+      <tr><td>Jarace Walker</td><td>Indiana</td><td>PF</td></tr>
+      <tr><td>Bilal Coulibaly</td><td>Washington</td><td>SF</td></tr>
+      <tr><td>Khaman Maluach</td><td>Phoenix</td><td>C</td></tr>
+      <tr><td>Zach Edey</td><td>Memphis</td><td>C</td></tr>
+      <tr><td>Derik Queen</td><td>New Orleans</td><td>C</td></tr>
+      <tr><td>Jeremiah Fears</td><td>New Orleans</td><td>PG</td></tr>
+      <tr><td>Karim Lopez</td><td>Detroit</td><td>SF</td></tr>
+      <tr><td>Mikel Brown</td><td>Brooklyn</td><td>PG</td></tr>
+      <tr><td>Thomas Sorber</td><td>Oklahoma City</td><td>C</td></tr>
+      <tr><td>Caleb Wilson</td><td>Chicago</td><td>PF</td></tr>
+      <tr><td>Hannes Steinbach</td><td>Charlotte</td><td>F</td></tr>
+      <tr><td>Darius Acuff Jr.</td><td>Sacramento</td><td>PG</td></tr>
+      <tr><td>Keaton Wagler</td><td>LAC</td><td>PG/SG</td></tr>
+      <tr><td>Ebuka Okorie</td><td>Oklahoma City</td><td>PG</td></tr>
+      <tr><td>Bennett Stirtz</td><td>Memphis</td><td>PG</td></tr>
+      <tr><td>Zuby Ejiofor</td><td>Atlanta</td><td>PF/C</td></tr>
+    <tr class="draft-row">
+      <td colspan="3">GG's VORP and Smoke Shop</td>
+    </tr>
+      <tr><td>Onyeka Okongwu</td><td>Atlanta</td><td>C</td></tr>
+      <tr><td>Jalen Green</td><td>Phoenix</td><td>SG</td></tr>
+      <tr><td>Josh Green</td><td>Minnesota</td><td>SG/SF</td></tr>
+      <tr><td>Jaden McDaniels</td><td>Minnesota</td><td>SF/PF</td></tr>
+      <tr><td>Isaiah Stewart</td><td>Memphis</td><td>PF/C</td></tr>
+      <tr><td>Alperen Sengun</td><td>Houston</td><td>C</td></tr>
+      <tr><td>Moses Moody</td><td>Golden State</td><td>SG/SF</td></tr>
+      <tr><td>Corey Kispert</td><td>Atlanta</td><td>SG/SF</td></tr>
+      <tr><td>Jabari Smith Jr.</td><td>Houston</td><td>PF/C</td></tr>
+      <tr><td>Scoot Henderson</td><td>Portland</td><td>PG</td></tr>
+      <tr><td>Keegan Murray</td><td>Sacramento</td><td>SF/PF</td></tr>
+      <tr><td>Ochai Agbaji</td><td>Brooklyn</td><td>PG/SG</td></tr>
+      <tr><td>GG Jackson II</td><td>Memphis</td><td>PF</td></tr>
+      <tr><td>Isaiah Collier</td><td>Utah</td><td>G</td></tr>
+      <tr><td>Jaime Jaquez Jr.</td><td>Milwaukee</td><td>SF</td></tr>
+      <tr><td>Cody Williams</td><td>Utah</td><td>SF</td></tr>
+      <tr><td>Stephon Castle</td><td>San Antonio</td><td>SF</td></tr>
+      <tr><td>Hugo Gonzalez</td><td>Boston</td><td>SG</td></tr>
+      <tr><td>Bub Carrington</td><td>Washington</td><td>PG/SG</td></tr>
+      <tr class="future"><td>Mohamed Dabone</td><td>Euroleague</td><td>F</td></tr>
+      <tr><td>Carter Bryant</td><td>San Antonio</td><td>SF</td></tr>
+      <tr><td>Max Raynaud</td><td>Sacramento</td><td>C</td></tr>
+      <tr class="future"><td>Nikola Kustruica</td><td>Euroleague</td><td>SF</td></tr>
+      <tr class="future"><td>Yann Kamagate</td><td>High School</td><td>C</td></tr>
+      <tr class="future"><td>Jan Cerdan</td><td>Euroleague</td><td>PF</td></tr>
+    <tr class="draft-row">
+      <td colspan="3">Duren Duren</td>
+    </tr>
+      <tr><td>Obi Toppin</td><td>Indiana</td><td>PF</td></tr>
+      <tr><td>Jonathan Kuminga</td><td>Golden State</td><td>PF</td></tr>
+      <tr><td>Patrick Williams</td><td>Chicago</td><td>PF</td></tr>
+      <tr><td>Desmond Bane</td><td>Memphis</td><td>SG/SF</td></tr>
+      <tr><td>Ziaire Williams</td><td>New Orleans</td><td>SF</td></tr>
+      <tr><td>Isaiah Joe</td><td>Oklahoma City</td><td>PG/SG</td></tr>
+      <tr><td>Josh Giddey</td><td>Oklahoma City</td><td>SG/SF/PF</td></tr>
+      <tr><td>Jalen Duren</td><td>Detroit</td><td>C</td></tr>
+      <tr><td>Nikola Jovic</td><td>Miami</td><td>PF/C</td></tr>
+      <tr><td>Herb Jones</td><td>New Orleans</td><td>SF/PF</td></tr>
+      <tr><td>Dyson Daniels</td><td>New Orleans</td><td>PG/SG</td></tr>
+      <tr><td>Jeremy Sochan</td><td>San Antonio</td><td>PF</td></tr>
+      <tr><td>Christian Braun</td><td>Denver</td><td>SG</td></tr>
+      <tr><td>Cam Whitmore</td><td>Houston</td><td>SF</td></tr>
+      <tr><td>Zaccharie Risacher</td><td>Atlanta</td><td>F</td></tr>
+      <tr><td>Airious Bailey</td><td>Utah</td><td>SF</td></tr>
+      <tr><td>Ja'Kobe Walter</td><td>Toronto</td><td>SG</td></tr>
+      <tr><td>Yves Missi</td><td>New Orleans</td><td>C</td></tr>
+      <tr><td>Darryn Peterson</td><td>Utah</td><td>PF</td></tr>
+      <tr><td>Chris Cenac Jr.</td><td>Boston</td><td>PF</td></tr>
+      <tr class="future"><td>Dash Daniels</td><td>NBL</td><td>SG</td></tr>
+      <tr class="future"><td>Miikka Muurinen</td><td>Arkansas</td><td>PF</td></tr>
+      <tr><td>Cedric Coward</td><td>Portland</td><td>SG/SF</td></tr>
+      <tr><td>Ryan Kalkbrenner</td><td>Charlotte</td><td>C</td></tr>
+      <tr class="future"><td>Marcus Spears Jr.</td><td>High School</td><td>PF</td></tr>
+      <tr class="future"><td>Stefan Joksimovic</td><td>Euroleague</td><td>SF</td></tr>
+      <tr class="future"><td>Braylon Mullins</td><td>UConn</td><td>SG</td></tr>
+      <tr class="future"><td>Thomas Haugh</td><td>Florida</td><td>PF</td></tr>
+    <tr class="draft-row">
+      <td colspan="3">Injury Hell</td>
+    </tr>
+      <tr><td>Cade Cunningham</td><td>Detroit</td><td>PG/SG</td></tr>
+      <tr><td>Chet Holmgren</td><td>Oklahoma City</td><td>PF/C</td></tr>
+      <tr><td>Scottie Barnes</td><td>Toronto</td><td>SF/PF</td></tr>
+      <tr><td>Jalen Suggs</td><td>Orlando</td><td>PG/SG</td></tr>
+      <tr><td>Franz Wagner</td><td>Orlando</td><td>SG/SF/PF</td></tr>
+      <tr><td>Kel'el Ware</td><td>Milwaukee</td><td>C</td></tr>
+      <tr><td>Kyle Filipowski</td><td>Utah</td><td>C</td></tr>
+      <tr><td>Tari Eason</td><td>Houston</td><td>SF/PF</td></tr>
+      <tr><td>Keyonte George</td><td>Utah</td><td>SG</td></tr>
+      <tr><td>Matas Buzelis</td><td>Chicago</td><td>F</td></tr>
+      <tr><td>Cooper Flagg</td><td>Dallas</td><td>F</td></tr>
+      <tr><td>Brandin Podziemski</td><td>Golden State</td><td>SG</td></tr>
+      <tr><td>Cameron Boozer</td><td>Memphis</td><td>PF</td></tr>
+      <tr><td>Tre Johnson</td><td>Washington</td><td>SG</td></tr>
+      <tr><td>Jared McCain</td><td>Philadelphia</td><td>SF</td></tr>
+      <tr><td>Kasparas Jakucionis</td><td>Milwaukee</td><td>PG</td></tr>
+      <tr><td>Jaylen Wells</td><td>Memphis</td><td>SF</td></tr>
+      <tr><td>Noa Essengue</td><td>Chicago</td><td>PF</td></tr>
+      <tr><td>Nate Ament</td><td>Milwaukee</td><td>SF</td></tr>
+      <tr><td>Collin Murray-Boyles</td><td>Toronto</td><td>PF</td></tr>
+      <tr><td>Labaron Philon</td><td>Philadelphia</td><td>PG</td></tr>
+      <tr class="future"><td>Caleb Holt</td><td>High School</td><td>SG</td></tr>
+      <tr><td>Kingston Flemings</td><td>Atlanta</td><td>PG</td></tr>
+      <tr class="future"><td>CJ Rosser</td><td>High School</td><td>PF</td></tr>
+      <tr class="future"><td>AJ Williams</td><td>High School</td><td>SF</td></tr>
+      <tr class="future"><td>Colton Hiller</td><td>High School</td><td>SF</td></tr>
+    <tr class="draft-row">
+      <td colspan="3">howumissme?</td>
+    </tr>
+      <tr><td>Austin Reaves</td><td>LAL</td><td>SG</td></tr>
+      <tr><td>Quentin Grimes</td><td>LAC</td><td>SG</td></tr>
+      <tr><td>Ayo Dosunmu</td><td>Chicago</td><td>SG</td></tr>
+      <tr><td>Cam Thomas</td><td>Brooklyn</td><td>SG</td></tr>
+      <tr><td>David Roddy</td><td>Denver</td><td>PF</td></tr>
+      <tr><td>Santi Aldama</td><td>Utah</td><td>PF</td></tr>
+      <tr><td>Isaiah Livers</td><td>Detroit</td><td>SF/PF</td></tr>
+      <tr><td>Malki Branham</td><td>San Antonio</td><td>PG/SG</td></tr>
+      <tr><td>Chuma Okeke</td><td>Orlando</td><td>SF/PF</td></tr>
+      <tr><td>Jaylin Williams</td><td>OKC</td><td>PF/C</td></tr>
+      <tr><td>Christian Koloko</td><td>Atlanta</td><td>C</td></tr>
+      <tr><td>Miles McBride</td><td>NYK</td><td>PG/SG</td></tr>
+      <tr><td>Saben Lee</td><td>Utah</td><td>PG</td></tr>
+      <tr><td>Caleb Houstan</td><td>Orlando</td><td>SF</td></tr>
+      <tr><td>Jabari Walker</td><td>Philadelphia</td><td>PF</td></tr>
+      <tr><td>Max Christie</td><td>Dallas</td><td>SG</td></tr>
+      <tr><td>Luka Garza</td><td>Boston</td><td>C</td></tr>
+      <tr><td>Jake LaRavia</td><td>LAL</td><td>PF</td></tr>
+      <tr><td>Moussa Diabate</td><td>Charlotte</td><td>C</td></tr>
+      <tr><td>Blake Wesley</td><td>Portland</td><td>SG</td></tr>
+      <tr><td>Sam Merrill</td><td>Cleveland</td><td>SG</td></tr>
+      <tr><td>Jae'Sean Tate</td><td>Houston</td><td>SF/PF</td></tr>
+      <tr><td>Bones Hyland</td><td>Minnesota</td><td>SG/SF</td></tr>
+      <tr><td>Payton Watson</td><td>Denver</td><td>SG/SF</td></tr>
+      <tr><td>Marcus Sasser</td><td>Detroit</td><td>PG</td></tr>
+    <tr class="draft-row">
+      <td colspan="3">yuCutMe?</td>
+    </tr>
+      <tr><td>Emoni Bates</td><td>Cleveland</td><td>SF</td></tr>
+      <tr><td>James Wiseman</td><td>Detroit</td><td>C</td></tr>
+      <tr><td>Killian Hayes</td><td>Detroit</td><td>PG/SG</td></tr>
+      <tr><td>Precious Achiuwa</td><td>New York</td><td>PF/C</td></tr>
+      <tr><td>Isaac Okoro</td><td>Chicago</td><td>SG/SF</td></tr>
+      <tr><td>Tre Jones</td><td>Chicago</td><td>PG</td></tr>
+      <tr><td>Jalen Smith</td><td>Indiana</td><td>PF/C</td></tr>
+      <tr><td>Zeke Nnaji</td><td>Denver</td><td>C</td></tr>
+      <tr><td>Xavier Tillman</td><td>Boston</td><td>PF/C</td></tr>
+      <tr><td>Paul Reed</td><td>Detroit</td><td>PF/C</td></tr>
+      <tr><td>Kenyon Martin Jr</td><td>LAC</td><td>SF/PF</td></tr>
+      <tr><td>Davion Mitchell</td><td>Toronto</td><td>PG/SG</td></tr>
+      <tr><td>Neemias Queta</td><td>Sacramento</td><td>C</td></tr>
+      <tr><td>MarJon Beauchamp</td><td>Milwaukee</td><td>SG/SF</td></tr>
+      <tr><td>Dariq Whitehead</td><td>Brooklyn</td><td>SG/SF</td></tr>
+      <tr><td>Ousmane Dieng</td><td>Oklahoma City</td><td>SF/PF</td></tr>
+      <tr><td>Justin Edwards</td><td>Philadelphia</td><td>SF</td></tr>
+      <tr><td>Aday Mara</td><td>Oklahoma City</td><td>C</td></tr>
+      <tr><td>Jordan Hawkins</td><td>New Orleans</td><td>SG</td></tr>
+      <tr><td>Bronny James</td><td>LAL</td><td>SG</td></tr>
+      <tr><td>Trayce Jackson-Davis</td><td>Golden State</td><td>PF/C</td></tr>
+      <tr><td>Devin Carter</td><td>Sacramento</td><td>SG</td></tr>
+      <tr><td>Baylor Scheierman</td><td>Boston</td><td>SG</td></tr>
+      <tr><td>Tyler Kolek</td><td>New York</td><td>PG</td></tr>
+      <tr><td>Tristan da Silva</td><td>Orlando</td><td>SF</td></tr>
+  </tbody>
+</table>
